@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+            <head>
+                <meta charset="UTF-8">
+                <title>Clínica Veterinária</title>
+
+                <link rel="stylesheet" href="reset.css">
+                <link rel="stylesheet" href="main.css">
+                <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+          
+            </head>
+
+            <body>
+                <main>
+                    <div class="header-1">
+                        <header class="menu-principal"> 
+                            <div>
+                                <img id="logo" src="logopata.png">
+                            
+    
+                            </div>
+                            <div class="pesquisar">
+                                <input class="pesquisa" placeholder="         Pesquisar no Site" type="text" id="pesquisar">
+                            </div>
+    
+                            <div>
+                                <nav class="menu">
+                                    <ul class="opcoes">
+                                        <li>
+                                            <a href="index.html">PÁGINA INICIAl</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <div class="contatop">
+                                                <a href="Contato.html">CONTATO</a>
+                                            </div>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="ajuda.html">AJUDA</a>
+                                        </li>                                       
+                                    </ul>
+                                </nav>
+                            </div>
+                        </header>         
+                    </div>
+    
+                    <div class="header-2">
+
+                    </div>
+
+                    <main>
+                        <form>
+                            <label for="nomesobrenome">NOME</label>
+                            <input type="text" id="nomesobrenome" class="input-padrao" required>
+            
+                            <label for="telefone">NÚMERO PARA CONTATO</label>
+                            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+            
+                            <label for="mensagem">MOTIVO DO CONTATO</label>
+                            <textarea cols="70" rows="5" id="mensagem" class="input-padrao" required></textarea>
+            
+                            <fieldset>
+                                <legend>Estamos Falando de Qual Bichinho?</legend>
+                                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Cachorro</label>
+                                
+                                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Gato</label>
+                                
+                                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Outros</label>
+                            </fieldset>
+                                  
+            
+                            <input class="enviar" type="submit" value="ENVIAR">
+                        </form>
+  
+
+        <footer class="footer">
+            <div imgfooter>
+                <img src="logopata.png">
+            </div>
+
+            <div class="textcopy">
+                <p class="copyright">&copy; Copyright Vitoria Neves - 2030</p>
+            </div>
+        </footer>
+
+    </html>

@@ -1,0 +1,306 @@
+html {
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-principal {
+    background-color: rgb(24, 24, 24);
+    height: 90px;
+}
+
+.header-1 {
+    margin: 0 auto;
+}
+
+.header-2 {
+    background-color: black;
+    height: 20px;
+}
+
+.ostrem {
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#imgostrem {
+    width: 30%;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    float: left;
+    box-sizing: border-box;
+	border-radius: 250px;
+}
+
+.inputs {
+    margin-left: 1500px;
+    margin-top: -50px;
+    width: 100px;
+    height: 21px;
+    border-bottom: solid 1px;
+    background: rgba(255, 255, 255, 2%);
+    border: none;
+    border-radius: 5px;
+}
+
+#search {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: rgba(255, 255, 255, 40%);
+    border-bottom: solid 1px;
+    background: rgba(233, 255, 255, 0.2);
+}
+
+.curiosidades {
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.oqe {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.oqe2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.indexp {
+    color: #696969;
+    border-bottom: 2px solid white ;
+    margin-bottom: 60px;
+    padding-bottom: 14px;
+}
+
+.contatop {
+    color: #696969;
+    border-bottom: 2px solid white ;
+    margin-bottom: 50px;
+    padding-bottom: 14px;
+}
+
+.ajudap {
+    color: #696969;
+    border-bottom: 2px solid white ;
+    margin-bottom: 50px;
+    padding-bottom: 14px;
+}
+
+.menu {
+    text-align: center;  
+}
+.menu a {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px             ;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.opcoes li a {
+    margin-top: 500px;
+    padding-bottom: 14px;
+}
+
+.curio {
+    padding: 3em 0;
+	background: #fefefe;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.curio a {
+    margin: 0 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    text-decoration-color: rebeccapurple;
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin: 20px 0 0;
+    text-align: center;
+}
+
+.footer {
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.imgfooter {
+    text-align: center;
+}
+
+#vitoria {
+    width: 30%;
+    padding-left: 200px;
+    display: inline-block;
+	vertical-align: top;
+
+
+}
+
+.textovit {
+    text-align: center; 
+    font-size: 50px;
+
+}
+
+.fotovitoria {
+    padding-top: 100px;
+    transition: 1s;
+    float: right;
+
+}
+
+.fotovitoria:hover {
+	transform: scale(1.1);
+}
+
+.textovit {
+    margin-left: 25px;
+}
+
+form {
+	margin: 40px 0;
+    
+    margin-left: 50px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 30%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 20%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s all;
+	cursor: pointer;
+    margin-left: 50px;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.05);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+footer {
+    margin-top: 1200px;
+}
+
+.ajudahtml {
+    text-decoration: none;
+    color: grey;
+}
+
+.curio p {
+    margin-left: 7px;
+}
+
+#fotoparis {
+    width: 30%;
+    height: 10%;
+    position: relative;
+    float: left;
+    padding: 10px;
+    margin-left: 3px;
+    border-radius: 25px;
+}
+
+#grand {
+    margin-top: 470px;
+    width: 30%;
+    height: 10%;
+    position: relative;
+    float: left;
+    padding: 10px;
+    margin-left: -570px;
+    border-radius: 25px;
+}
+
+.oqe3 {
+    text-align: center;
+    margin-top: 700px;
+    font-size: 50px;
+}
+
+.oqe4 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin-bottom: 100px;
+}
